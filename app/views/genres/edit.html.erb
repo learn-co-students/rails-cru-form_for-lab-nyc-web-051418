@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <%= form_for(@genre) do |f| %>
+    <%= f.text_field :name %>
+    <%= f.submit "Update Genre" %>
+    <% end %>
+  </body>
+</html>

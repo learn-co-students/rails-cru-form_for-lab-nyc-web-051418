@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <%= form_for(@artist) do |f| %>
+    <%= f.text_field :name %>
+    <%= f.text_field :bio %>
+    <%= f.submit "Update Artist" %>
+    <% end %>
+  </body>
+</html>

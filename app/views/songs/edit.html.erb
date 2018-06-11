@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <%= form_for(@song) do |f| %>
+    <%= f.text_field :name %>
+    <%= f.text_field :artist_id %>
+    <%= f.text_field :genre_id %>
+    <%= f.submit "Update Song" %>
+    <% end %>
+  </body>
+</html>
