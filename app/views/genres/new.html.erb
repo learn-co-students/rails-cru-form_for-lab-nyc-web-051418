@@ -1,0 +1,7 @@
+<%= form_for @genre do |f| %>
+  <h1>Create a Genre</h1>
+  <label>Genre Name:</label><br>
+  <%= f.text_field :name %><br>
+
+  <%= submit_tag "Create Genre" %>
+<% end %>
